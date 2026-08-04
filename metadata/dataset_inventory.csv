@@ -1,7 +1,7 @@
 relative_path,size_mb,last_modified
 data/raw/modern/statsbomb/statsbomb_lineups_raw.csv,19.174,2026-08-04 14:33
 data/raw/modern/statsbomb/statsbomb_panel_events.parquet,6.847,2026-08-04 14:42
-data/raw/modern/statsbomb/statsbomb_panel_matches.csv,0.299,2026-08-04 19:58
+data/raw/modern/statsbomb/statsbomb_panel_matches.csv,0.299,2026-08-04 21:56
 data/raw/modern/fbref/tier1_fbref_standard.parquet,0.018,2026-08-04 00:12
 data/raw/modern/fbref/fbref_Premier-League_20182019_panel.parquet,0.014,2026-08-04 00:42
 data/raw/modern/fbref/fbref_Premier-League_20192020_panel.parquet,0.014,2026-08-04 00:42
