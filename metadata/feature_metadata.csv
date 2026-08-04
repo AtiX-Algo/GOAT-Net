@@ -1,21 +1,21 @@
 feature,type,description,range
-canonical_id,object,Auto-generated pipeline feature,categorical
-common_name,object,Auto-generated pipeline feature,categorical
-League,object,Auto-generated pipeline feature,categorical
-Season,object,Auto-generated pipeline feature,categorical
-Minutes,int64,Auto-generated pipeline feature,525.00 to 3023.00
-Gls,int64,Auto-generated pipeline feature,1.00 to 41.00
-Ast,int64,Auto-generated pipeline feature,0.00 to 21.00
-CrdY,object,Auto-generated pipeline feature,categorical
-CrdR,object,Auto-generated pipeline feature,categorical
-understat_career_xG,float64,Auto-generated pipeline feature,58.91 to 291.08
-understat_career_xA,float64,Auto-generated pipeline feature,22.59 to 131.55
-understat_career_xGChain,float64,Auto-generated pipeline feature,125.70 to 364.97
-understat_career_xGBuildup,float64,Auto-generated pipeline feature,20.23 to 149.03
-overall,float64,Auto-generated pipeline feature,86.00 to 91.00
-potential,float64,Auto-generated pipeline feature,86.00 to 94.00
-Gls_per90,float64,Auto-generated pipeline feature,0.09 to 1.50
-Ast_per90,float64,Auto-generated pipeline feature,0.00 to 0.74
-Mins_per_Goal,float64,Auto-generated pipeline feature,60.00 to 1016.00
-Gls_Ast,int64,Auto-generated pipeline feature,1.00 to 49.00
-Gls_Ast_per90,float64,Auto-generated pipeline feature,0.17 to 1.76
+canonical_id,object,Pipeline generated statistical feature,categorical
+common_name,object,Pipeline generated statistical feature,categorical
+League,object,Pipeline generated statistical feature,categorical
+Season,object,Pipeline generated statistical feature,categorical
+Minutes,int64,Total minutes played,525.00 to 3023.00
+Gls,int64,Pipeline generated statistical feature,1.00 to 41.00
+Ast,int64,Pipeline generated statistical feature,0.00 to 21.00
+CrdY,object,Pipeline generated statistical feature,categorical
+CrdR,object,Pipeline generated statistical feature,categorical
+understat_xG,float64,Pipeline generated statistical feature,1.47 to 37.92
+understat_xA,float64,Pipeline generated statistical feature,0.31 to 20.62
+understat_xGChain,float64,Pipeline generated statistical feature,2.96 to 41.92
+understat_xGBuildup,float64,Pipeline generated statistical feature,0.94 to 20.34
+overall,float64,Pipeline generated statistical feature,86.00 to 91.00
+potential,float64,Pipeline generated statistical feature,86.00 to 94.00
+Goals_per90,float64,Goals scored per 90 minutes,0.09 to 1.50
+Assists_per90,float64,Assists provided per 90 minutes,0.00 to 0.74
+Mins_per_Goal,float64,Pipeline generated statistical feature,60.00 to 1016.00
+Gls_Ast,int64,Pipeline generated statistical feature,1.00 to 49.00
+GoalContributions_per90,float64,Goals plus assists per 90 minutes,0.17 to 1.76

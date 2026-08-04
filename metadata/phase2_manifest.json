@@ -1,0 +1,14 @@
+{
+  "phase": 2,
+  "created": "2026-08-04T22:29:20.067092",
+  "datasets": [
+    "player_match_stats.parquet",
+    "player_season_stats.parquet",
+    "player_summary.parquet"
+  ],
+  "statsbomb_rows": 49114,
+  "fbref_rows": 44,
+  "understat_rows": 57,
+  "transfermarkt_rows": 359,
+  "fifa_rows": 58
+}
