@@ -1,0 +1,64 @@
+pipeline_version: "3.5.0"
+cutoff_date: "2026-07-31"
+
+datasets:
+  statistical_player_summary:
+    type: "statistical"
+    path: "data/processed/statistical/player_summary.parquet"
+    provider: "fbref"
+    granularity: "career_summary"
+    keys:
+      primary_player: "common_name"
+      match_count: "matches"
+
+  statistical_season_stats:
+    type: "statistical"
+    path: "data/processed/statistical/player_season_stats.parquet"
+    provider: "fbref"
+    granularity: "player_season"
+    keys:
+      primary_player: "common_name"
+      season: "season"
+      competition: "comp"
+      match_count: "matches"
+
+  statistical_match_stats:
+    type: "statistical"
+    path: "data/processed/statistical/player_match_stats.parquet"
+    provider: "fbref"
+    granularity: "player_match"
+    keys:
+      primary_player: "common_name"
+      match: "match_id"
+      season: "season"
+      competition: "comp"
+      date: "date"
+
+  spatial_player_summary:
+    type: "spatial"
+    path: "data/processed/spatial/player_spatial_summary.parquet"
+    provider: "statsbomb"
+    granularity: "career_summary"
+    keys:
+      primary_player: "common_name"
+      secondary_players: ["statsbomb_player"]
+      match_count: "matches"
+
+  spatial_passing_centrality:
+    type: "spatial"
+    path: "data/processed/spatial/match_passing_centrality.parquet"
+    provider: "statsbomb"
+    granularity: "player_match"
+    keys:
+      primary_player: "common_name"
+      secondary_players: ["statsbomb_player"]
+      match: "match_id"
+
+  spatial_zone_summary:
+    type: "spatial"
+    path: "data/processed/spatial/player_zone_summary.parquet"
+    provider: "statsbomb"
+    granularity: "career_summary"
+    keys:
+      primary_player: "common_name"
+      secondary_players: ["statsbomb_player"]

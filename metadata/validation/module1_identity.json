@@ -1,0 +1,23 @@
+{
+  "status": "PASSED",
+  "datasets": {
+    "statistical_player_summary": {
+      "unique_canonical_ids": 8
+    },
+    "statistical_season_stats": {
+      "unique_canonical_ids": 8
+    },
+    "statistical_match_stats": {
+      "unique_canonical_ids": 7
+    },
+    "spatial_player_summary": {
+      "unique_canonical_ids": 7
+    },
+    "spatial_passing_centrality": {
+      "unique_canonical_ids": 7
+    },
+    "spatial_zone_summary": {
+      "unique_canonical_ids": 7
+    }
+  }
+}

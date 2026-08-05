@@ -1,0 +1,41 @@
+{
+  "status": "PASSED",
+  "datasets": {
+    "statistical_player_summary": {
+      "columns_standardized": 12,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    },
+    "statistical_season_stats": {
+      "columns_standardized": 20,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    },
+    "statistical_match_stats": {
+      "columns_standardized": 7,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    },
+    "spatial_player_summary": {
+      "columns_standardized": 29,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    },
+    "spatial_passing_centrality": {
+      "columns_standardized": 7,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    },
+    "spatial_zone_summary": {
+      "columns_standardized": 10,
+      "required_schema_met": [
+        "canonical_id"
+      ]
+    }
+  }
+}

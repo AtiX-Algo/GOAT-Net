@@ -1,26 +1,22 @@
-%%writefile /content/GOAT-Net/.gitignore
-# ============================================================
-# GOAT-Net .gitignore
-# ============================================================
-
-# --- Python ---
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.mypy_cache/
-.dmypy.json
-dmypy.json
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Large raw data files (keep small CSVs, ignore massive parquets)
+data/raw/modern/statsbomb/statsbomb_full_match_events.parquet
+
+# Environment and secrets
+.env
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
