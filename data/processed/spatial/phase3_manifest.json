@@ -2,7 +2,7 @@
   "phase": "3_spatial_engine",
   "pipeline_version": "2.1",
   "seed": 42,
-  "generated_at": "2026-08-05T01:15:05.268366",
+  "generated_at": "2026-08-05T11:49:41.853358",
   "datasets": {
     "player_match_spatial": "player_match_spatial.parquet",
     "player_spatial_summary": "player_spatial_summary.parquet",
