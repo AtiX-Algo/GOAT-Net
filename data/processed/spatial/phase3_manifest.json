@@ -1,0 +1,27 @@
+{
+  "phase": "3_spatial_engine",
+  "pipeline_version": "2.1",
+  "seed": 42,
+  "generated_at": "2026-08-05T01:15:05.268366",
+  "datasets": {
+    "player_match_spatial": "player_match_spatial.parquet",
+    "player_spatial_summary": "player_spatial_summary.parquet",
+    "player_zone_summary": "player_zone_summary.parquet",
+    "player_penalty_zone_summary": "player_penalty_zone_summary.parquet"
+  },
+  "features_produced": [
+    "progressive_passes",
+    "progressive_carries",
+    "key_passes",
+    "avg_shot_dist",
+    "avg_shot_angle",
+    "goal_conversion_pct",
+    "shot_accuracy_pct",
+    "passing_network_betweenness",
+    "passing_network_closeness",
+    "defensive_third_actions",
+    "zone_occupancy_pct",
+    "..."
+  ],
+  "notes": "Memory\u2011optimized: vectorized zone computation, safe .copy(), progressive thresholds: pass 30, carry 15. Centrality without pagerank."
+}
