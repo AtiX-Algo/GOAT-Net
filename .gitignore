@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Large raw data files (keep small CSVs, ignore massive parquets)
+data/raw/modern/statsbomb/statsbomb_full_match_events.parquet
+
+# Environment and secrets
+.env
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
