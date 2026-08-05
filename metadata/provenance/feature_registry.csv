@@ -1,0 +1,51 @@
+feature,category,provenance_source
+canonical_id,Identifier,System Identity Layer
+common_name,Style (Micro),StatsBomb Spatial Engine
+career_minutes,Style (Micro),StatsBomb Spatial Engine
+career_goals,Style (Micro),StatsBomb Spatial Engine
+career_assists,Volume (Macro),FBref Statistical Engine
+seasons_played,Volume (Macro),FBref Statistical Engine
+latest_overall,Volume (Macro),FBref Statistical Engine
+career_90s,Volume (Macro),FBref Statistical Engine
+goals_per90,Volume (Macro),FBref Statistical Engine
+assists_per90,Volume (Macro),FBref Statistical Engine
+goalcontributions_per90,Volume (Macro),FBref Statistical Engine
+mins_per_goal,Volume (Macro),FBref Statistical Engine
+canonical_name,Identifier,System Identity Layer
+matches,Style (Micro),StatsBomb Spatial Engine
+career_passes,Style (Micro),StatsBomb Spatial Engine
+career_progressive_passes,Style (Micro),StatsBomb Spatial Engine
+career_key_passes,Style (Micro),StatsBomb Spatial Engine
+career_shots,Style (Micro),StatsBomb Spatial Engine
+career_shots_on_target,Style (Micro),StatsBomb Spatial Engine
+careerg,Volume (Macro),FBref Statistical Engine
+avg_shot_dist,Style (Micro),StatsBomb Spatial Engine
+avg_shot_angle,Style (Micro),StatsBomb Spatial Engine
+career_carries,Style (Micro),StatsBomb Spatial Engine
+career_progressive_carries,Style (Micro),StatsBomb Spatial Engine
+career_def_actions,Style (Micro),StatsBomb Spatial Engine
+avg_betweenness,Style (Micro),StatsBomb Spatial Engine
+avg_closeness,Style (Micro),StatsBomb Spatial Engine
+avg_weighted_degree,Style (Micro),StatsBomb Spatial Engine
+goal_conversion_pct,Style (Micro),StatsBomb Spatial Engine
+shot_accuracy_pct,Style (Micro),StatsBomb Spatial Engine
+career_passes_per90,Style (Micro),StatsBomb Spatial Engine
+career_progressive_passes_per90,Style (Micro),StatsBomb Spatial Engine
+career_shots_per90,Style (Micro),StatsBomb Spatial Engine
+career_goals_per90,Style (Micro),StatsBomb Spatial Engine
+careerg_per90,Volume (Macro),FBref Statistical Engine
+career_carries_per90,Style (Micro),StatsBomb Spatial Engine
+career_progressive_carries_per90,Style (Micro),StatsBomb Spatial Engine
+career_def_actions_per90,Style (Micro),StatsBomb Spatial Engine
+attacking,Style (Micro),StatsBomb Zone Engine
+defensive,Style (Micro),StatsBomb Zone Engine
+midfield,Style (Micro),StatsBomb Zone Engine
+total_touches,Style (Micro),StatsBomb Zone Engine
+defensive_pct,Style (Micro),StatsBomb Zone Engine
+midfield_pct,Style (Micro),StatsBomb Zone Engine
+attacking_pct,Style (Micro),StatsBomb Zone Engine
+statsbomb_player_canonical_id,Style (Micro),StatsBomb Zone Engine
+statsbomb_player_canonical_name,Style (Micro),StatsBomb Zone Engine
+event_dataset_density_pct,Metadata,GOAT-Net Density Engine
+macro_dataset_matches,Metadata,GOAT-Net Density Engine
+event_dataset_matches,Metadata,GOAT-Net Density Engine

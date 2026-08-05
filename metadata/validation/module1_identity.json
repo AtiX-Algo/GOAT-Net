@@ -2,34 +2,22 @@
   "status": "PASSED",
   "datasets": {
     "statistical_player_summary": {
-      "initial_rows": 8,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 8
     },
     "statistical_season_stats": {
-      "initial_rows": 44,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 8
     },
     "statistical_match_stats": {
-      "initial_rows": 885,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 7
     },
     "spatial_player_summary": {
-      "initial_rows": 7,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 7
     },
     "spatial_passing_centrality": {
-      "initial_rows": 19587,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 7
     },
     "spatial_zone_summary": {
-      "initial_rows": 3309,
-      "unique_canonical_ids": 0,
-      "unmapped_errors": 0
+      "unique_canonical_ids": 7
     }
   }
 }
