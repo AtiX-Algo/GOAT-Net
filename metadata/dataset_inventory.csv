@@ -1,4 +1,33 @@
-dataset,rows,columns,created_at,phase,version,checksum
-player_match_stats.parquet,885,7,2026-08-05T11:08:33.088564,2,1.0,66ac9cbfbdabbcd05cb21cec6929db32
-player_season_stats.parquet,44,20,2026-08-05T11:08:33.088564,2,1.0,2dabf9be8b61db5d86d61224a1c0c188
-player_summary.parquet,8,12,2026-08-05T11:08:33.088564,2,1.0,aaede2e5a4dc6233aa264a180ea319d6
+relative_path,size_mb,last_modified
+data/raw/modern/.gitkeep,0.0,2026-08-05 19:07
+data/raw/legacy/.gitkeep,0.0,2026-08-05 19:07
+data/raw/modern/statsbomb/statsbomb_lineups_raw.csv,19.174,2026-08-04 14:33
+data/raw/modern/statsbomb/statsbomb_panel_events.parquet,6.847,2026-08-04 14:42
+data/raw/modern/statsbomb/panel_matches.csv,0.299,2026-08-04 23:49
+data/raw/modern/statsbomb/statsbomb_full_match_events.parquet,289.026,2026-08-04 23:53
+data/raw/modern/statsbomb/statsbomb_panel_matches.csv,0.299,2026-08-05 20:13
+data/raw/modern/fbref/fbref_career_stats_Lionel_Messi.parquet,0.016,2026-08-05 19:36
+data/raw/modern/fbref/debruyne.html,2.175,2026-08-05 20:00
+data/raw/modern/fbref/ronaldo.html,2.337,2026-08-05 19:49
+data/raw/modern/fbref/mbappe.html,1.835,2026-08-05 19:49
+data/raw/modern/fbref/haaland.html,1.658,2026-08-05 19:50
+data/raw/modern/fbref/modric.html,2.245,2026-08-05 20:09
+data/raw/modern/fbref/neymar.html,1.757,2026-08-05 20:10
+data/raw/modern/fbref/fbref_career_stats_Cristiano_Ronaldo.parquet,0.017,2026-08-05 20:12
+data/raw/modern/fbref/fbref_career_stats_Kylian_Mbappé.parquet,0.016,2026-08-05 20:12
+data/raw/modern/fbref/fbref_career_stats_Neymar.parquet,0.016,2026-08-05 20:12
+data/raw/modern/fbref/fbref_career_stats_Kevin_De_Bruyne.parquet,0.017,2026-08-05 20:13
+data/raw/modern/fbref/fbref_career_stats_Luka_Modrić.parquet,0.016,2026-08-05 20:13
+data/raw/modern/fbref/fbref_career_stats_Erling_Haaland.parquet,0.016,2026-08-05 20:13
+data/raw/modern/fbref/lewandowski.html,2.241,2026-08-05 20:15
+data/raw/modern/fbref/fbref_career_stats_Robert_Lewandowski.parquet,0.017,2026-08-05 20:17
+data/raw/modern/understat/tier1_understat_xg.parquet,0.016,2026-08-04 01:29
+data/raw/modern/transfermarkt/tier1_tm_players.parquet,0.018,2026-08-04 01:32
+data/raw/modern/transfermarkt/tier1_tm_valuations.parquet,0.008,2026-08-04 01:32
+data/raw/legacy/goat_canon/goat_canon_match_logs_template.csv,0.0,2026-08-04 01:33
+data/raw/legacy/rsssf/rsssf_career_goals_template.csv,0.0,2026-08-04 01:33
+data/raw/legacy/iffhs/iffhs_awards_template.csv,0.0,2026-08-04 01:33
+data/raw/legacy/wikipedia/goat_biographies.parquet,0.008,2026-08-04 01:36
+data/raw/legacy/worldfootball/worldfootball_match_history_template.csv,0.0,2026-08-04 01:33
+data/raw/optional/fifa/tier1_fifa_ratings.parquet,0.073,2026-08-04 01:33
+data/raw/optional/fivethirtyeight/spi_global_rankings.csv,0.038,2026-08-04 01:41
