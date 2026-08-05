@@ -1,4 +1,4 @@
 dataset,rows,columns,created_at,phase,version,checksum
-player_match_stats.parquet,885,7,2026-08-04T23:55:18.336096,2,1.0,66ac9cbfbdabbcd05cb21cec6929db32
-player_season_stats.parquet,44,20,2026-08-04T23:55:18.336096,2,1.0,2dabf9be8b61db5d86d61224a1c0c188
-player_summary.parquet,8,12,2026-08-04T23:55:18.336096,2,1.0,aaede2e5a4dc6233aa264a180ea319d6
+player_match_stats.parquet,885,7,2026-08-05T00:01:42.876188,2,1.0,66ac9cbfbdabbcd05cb21cec6929db32
+player_season_stats.parquet,44,20,2026-08-05T00:01:42.876188,2,1.0,2dabf9be8b61db5d86d61224a1c0c188
+player_summary.parquet,8,12,2026-08-05T00:01:42.876188,2,1.0,aaede2e5a4dc6233aa264a180ea319d6
